@@ -1,0 +1,9 @@
+rootProject.name = 'stepsCount'
+include ':react-native-universal-pedometer'
+project(':react-native-universal-pedometer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-universal-pedometer/android')
+
+
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+
+include ':app'
